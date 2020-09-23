@@ -31,6 +31,8 @@ export default class MyDocument extends Document<MyDocumentProps> {
             dangerouslySetInnerHTML={{ __html: this.props.css }}
           />
           <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+          <meta name="description" content="Output vertical writing image" />
+          <meta name="twitter:card" content="summary" />
         </Head>
         <body>
           <Main />

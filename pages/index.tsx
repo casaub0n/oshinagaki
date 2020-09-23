@@ -1,15 +1,20 @@
 import { css } from '@emotion/css'
 import tw from '@tailwindcssinjs/macro'
-import ButtonCss from '../components/ButtonCss'
-import ButtonReact from '../components/ButtonReact'
-import ButtonStyled from '../components/ButtonStyled'
+import TategakiLi from '../components/TategakiLi'
+import TategakiArea from '../components/TategakiStyle'
+import TategakiUl from '../components/TategakiUl'
 
 const Index = (): JSX.Element => (
-  <div className={css(tw`grid justify-center items-center h-screen`)}>
-    <ButtonCss>@emotion/css</ButtonCss>
-    <ButtonReact>@emotion/react</ButtonReact>
-    <ButtonStyled>@emotion/styled</ButtonStyled>
-  </div>
+  <main className={css(tw`grid justify-center items-center h-screen`)}>
+    <TategakiArea>
+      <TategakiUl>
+        <TategakiLi>サーモンのオーブン焼き</TategakiLi>
+        <TategakiLi>トマトパスタ</TategakiLi>
+        <TategakiLi>チンゲンサイと素麺</TategakiLi>
+        <TategakiLi>野菜炒め</TategakiLi>
+      </TategakiUl>
+    </TategakiArea>
+  </main>
 )
 
 export default Index
