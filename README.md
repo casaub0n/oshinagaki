@@ -1,6 +1,6 @@
 # Oshinagaki
 
-(oshinagaki)[https://oshinagaki.vercel.app/] is to create vertical writing
+[oshinagaki](https://oshinagaki.vercel.app/) is to create vertical writing
 
 ## Deploy your own
 
