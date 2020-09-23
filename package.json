@@ -20,7 +20,7 @@
     "@emotion/babel-plugin": "11.0.0-next.17",
     "@emotion/server": "11.0.0-next.17",
     "@tailwindcss/ui": "0.6.2",
-    "@tailwindcssinjs/macro": "0.3.1",
+    "@tailwindcssinjs/macro": "0.10.0",
     "@testing-library/react": "11.0.4",
     "@types/jest": "26.0.14",
     "@types/node": "14.11.2",
