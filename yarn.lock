@@ -1537,27 +1537,27 @@
   resolved "https://registry.yarnpkg.com/@tailwindcssinjs/class-composer/-/class-composer-0.9.0.tgz#f4c44a58a18f6e9689a40446a14b524702c3851a"
   integrity sha512-MFxrOR+/ndJ4hDkIdi5LjUT+ffyxJcdppdLi+JHUddgHSQN8Ztr+iDuGMtB23OCOu3UQseAF0DXwsNAoTEs0NA==
 
-"@tailwindcssinjs/macro@0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/macro/-/macro-0.10.0.tgz#a2f585037156f855a18716ad42764875cb5961a9"
-  integrity sha512-5/GH67jcukptaK0gbvdK/taoRkIMjguqb9+c36HSDyhL2Ax9tBU7sKRymDDlRUPGfZCUs50jwgVXCYx0p3PcRQ==
+"@tailwindcssinjs/macro@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/macro/-/macro-0.11.0.tgz#ca6a536f6112e1189338f39b3a85f9518432d070"
+  integrity sha512-wJtLrvDjKgQzCeQF0JqBflTolwdbu8d2l2SujXJP7Prci239wcojmMOVLP2hfjI6+wYc6hxdvtesnomB2SD5aA==
   dependencies:
     "@tailwindcssinjs/class-composer" "0.9.0"
-    "@tailwindcssinjs/tailwindcss-data" "0.10.0"
+    "@tailwindcssinjs/tailwindcss-data" "0.11.0"
     babel-plugin-macros "^2.8.0"
     lodash "^4.17.20"
-    postcss-js "^3.0.0"
+    postcss-js "^3.0.1"
 
-"@tailwindcssinjs/tailwindcss-data@0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/tailwindcss-data/-/tailwindcss-data-0.10.0.tgz#bc72ce6d4927335f4ffb5b24e637d5d1fe1c2eab"
-  integrity sha512-RXpk9axSS+bO4V6SJvzO3uSU/tD6cP4rR2gP1WoDzQIwDwJBF2W5TeU8WHVLIKDCnyqX+Z7c2ewv+78/I4XbMQ==
+"@tailwindcssinjs/tailwindcss-data@0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/tailwindcss-data/-/tailwindcss-data-0.11.0.tgz#56b7bae305db86a4424087f21cdf1012a72e04f8"
+  integrity sha512-z2t2nhWnqkK3+Y45nhoYVf1Wy0ogyDuAReKp+eWCTpTwd4JdsgOrH3lWbxkuN7Pcly+1snyHO0tFxcD+47IymA==
   dependencies:
     lodash "^4.17.20"
-    postcss "8.0.5"
-    postcss-js "3.0.0"
-    postcss-selector-parser "^6.0.2"
-    sort-css-media-queries "^1.5.0"
+    postcss "8.1.1"
+    postcss-js "3.0.1"
+    postcss-selector-parser "^6.0.4"
+    sort-css-media-queries "^1.5.2"
 
 "@testing-library/dom@^7.24.2":
   version "7.24.2"
@@ -6877,13 +6877,13 @@ postcss-functions@^3.0.0:
     postcss "^6.0.9"
     postcss-value-parser "^3.3.0"
 
-postcss-js@3.0.0, postcss-js@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-js/-/postcss-js-3.0.0.tgz#84f410b4cf45dd30a3c0a6da1726a2898d955479"
-  integrity sha512-1WsYJF27Qib1Jvu826qp43xxDB4h6XWuYa8rvXIqLY3WiAfDImvvw2LLu6fxw0UTJBpnuDMdpBkYt+R0Rvtrbg==
+postcss-js@3.0.1, postcss-js@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-js/-/postcss-js-3.0.1.tgz#e467efdce80ca02e072c60b42e0b35ad2f950a94"
+  integrity sha512-m1DgECmEbOK9JhGkdctaP9ZRVheJuEnkk2eb/d3K+5uN10C3S004Ng6Hat4Aha7PsLt824x0xwrT7rVwGRVLHg==
   dependencies:
     camelcase-css "^2.0.1"
-    postcss "^8.0.2"
+    postcss "^8.1.0"
 
 postcss-js@^2.0.0:
   version "2.0.3"
@@ -6951,6 +6951,16 @@ postcss-selector-parser@^6.0.0, postcss-selector-parser@^6.0.2:
     uniq "^1.0.1"
     util-deprecate "^1.0.2"
 
+postcss-selector-parser@^6.0.4:
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.4.tgz#56075a1380a04604c38b063ea7767a129af5c2b3"
+  integrity sha512-gjMeXBempyInaBqpp8gODmwZ52WaYsVOsfr4L4lDQ7n3ncD6mEyySiDtgzCT+NYC0mmeOLvtsF8iaEf0YT6dBw==
+  dependencies:
+    cssesc "^3.0.0"
+    indexes-of "^1.0.1"
+    uniq "^1.0.1"
+    util-deprecate "^1.0.2"
+
 postcss-value-parser@^3.3.0:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-3.3.1.tgz#9ff822547e2893213cf1c30efa51ac5fd1ba8281"
@@ -6979,10 +6989,10 @@ postcss@7.0.32:
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@8.0.5:
-  version "8.0.5"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.0.5.tgz#8210e2363f85c35a88a188ce7a0828e93b1088d4"
-  integrity sha512-3rDm6KR0jHstte3aL3ugrCyFA1UXY90SWNwRZ2WTmRf/QpOqM35mm0FrRR+HHZQ5fY9+nXFat1nl2ekYJf0P4w==
+postcss@8.1.1, postcss@^8.1.0:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.1.1.tgz#c3a287dd10e4f6c84cb3791052b96a5d859c9389"
+  integrity sha512-9DGLSsjooH3kSNjTZUOt2eIj2ZTW0VI2PZ/3My+8TC7KIbH2OKwUlISfDsf63EP4aiRUt3XkEWMWvyJHvJelEg==
   dependencies:
     colorette "^1.2.1"
     line-column "^1.0.2"
@@ -7006,16 +7016,6 @@ postcss@^7.0.11, postcss@^7.0.14, postcss@^7.0.18, postcss@^7.0.26, postcss@^7.0
     chalk "^2.4.2"
     source-map "^0.6.1"
     supports-color "^6.1.0"
-
-postcss@^8.0.2:
-  version "8.0.8"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.0.8.tgz#5a80323a5107c0411451d1513f17984cfcfcc830"
-  integrity sha512-SJpf3Yrghve9ygpOcVhloo6e7q/mkp0YU3FLr3grdZpHmSjgwxTYEIrzkz7cFx27IMLFvIfLBnuw+JrHio14WQ==
-  dependencies:
-    colorette "^1.2.1"
-    line-column "^1.0.2"
-    nanoid "^3.1.12"
-    source-map "^0.6.1"
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -7912,10 +7912,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-sort-css-media-queries@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/sort-css-media-queries/-/sort-css-media-queries-1.5.0.tgz#8f605ad372caad0b81be010311882c046e738093"
-  integrity sha512-QofNE7CEVH1AKdhS7L9IPbV9UtyQYNXyw++8lC+xG6iOLlpzsmncZRiKbihTAESvZ8wOhwnPoesHbMrehrQyyw==
+sort-css-media-queries@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/sort-css-media-queries/-/sort-css-media-queries-1.5.2.tgz#68df401e3fbb2bfa049f6caa738486cfc5c65880"
+  integrity sha512-ytWRP2PfWO2OYF79rbn2u58y7L7LeW+KjAqzVSVarvqMt0YkCS3YlohpULL+vIRm4BW87D67tYorw73J07Gy8Q==
 
 source-list-map@^2.0.0:
   version "2.0.1"
