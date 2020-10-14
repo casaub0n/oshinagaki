@@ -12,8 +12,8 @@
     "@emotion/react": "11.0.0-rc.0",
     "@emotion/styled": "11.0.0-rc.0",
     "next": "latest",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
   },
   "devDependencies": {
     "@babel/core": "7.12.0",
