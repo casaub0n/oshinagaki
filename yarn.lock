@@ -1624,26 +1624,26 @@
     hex-rgb "^4.1.0"
     postcss-selector-parser "^6.0.2"
 
-"@tailwindcssinjs/class-composer@0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/class-composer/-/class-composer-0.9.0.tgz#f4c44a58a18f6e9689a40446a14b524702c3851a"
-  integrity sha512-MFxrOR+/ndJ4hDkIdi5LjUT+ffyxJcdppdLi+JHUddgHSQN8Ztr+iDuGMtB23OCOu3UQseAF0DXwsNAoTEs0NA==
+"@tailwindcssinjs/class-composer@0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/class-composer/-/class-composer-0.12.0.tgz#d59889c9c004fba7e5066bc547f533d80d7dfdc9"
+  integrity sha512-c3h+X8MmZqwJUgRETF61UsF8x1DLIwuZxQyv+muoCzl2gE4K4g03JRG4USjbj3fQK9WYy9yqFwmrn7b6ALDNPw==
 
-"@tailwindcssinjs/macro@0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/macro/-/macro-0.11.0.tgz#ca6a536f6112e1189338f39b3a85f9518432d070"
-  integrity sha512-wJtLrvDjKgQzCeQF0JqBflTolwdbu8d2l2SujXJP7Prci239wcojmMOVLP2hfjI6+wYc6hxdvtesnomB2SD5aA==
+"@tailwindcssinjs/macro@0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/macro/-/macro-0.12.0.tgz#8e41b319cc61767e59d67464e5a4c8b0d8537326"
+  integrity sha512-nsuW/Wp15wlI+tMqZ7K7dKqUpA9S6NfxFnFmBFn9u85m18OIID2xiCJJKolRSKFJrGEfCctKc+uQe11URe7eBg==
   dependencies:
-    "@tailwindcssinjs/class-composer" "0.9.0"
-    "@tailwindcssinjs/tailwindcss-data" "0.11.0"
+    "@tailwindcssinjs/class-composer" "0.12.0"
+    "@tailwindcssinjs/tailwindcss-data" "0.12.0"
     babel-plugin-macros "^2.8.0"
     lodash "^4.17.20"
     postcss-js "^3.0.1"
 
-"@tailwindcssinjs/tailwindcss-data@0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/tailwindcss-data/-/tailwindcss-data-0.11.0.tgz#56b7bae305db86a4424087f21cdf1012a72e04f8"
-  integrity sha512-z2t2nhWnqkK3+Y45nhoYVf1Wy0ogyDuAReKp+eWCTpTwd4JdsgOrH3lWbxkuN7Pcly+1snyHO0tFxcD+47IymA==
+"@tailwindcssinjs/tailwindcss-data@0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/tailwindcss-data/-/tailwindcss-data-0.12.0.tgz#bc553ed762add11ec0bd8f3e043c6ee202079f8a"
+  integrity sha512-c2PC99RYMd7KO0949sx4gj0moDLVOShXjjlp5Jh1l4Uilr/k9+sUAU+W44YXMLAmL5zmaInRuVdjjIH6+pFkQg==
   dependencies:
     lodash "^4.17.20"
     postcss "8.1.1"
