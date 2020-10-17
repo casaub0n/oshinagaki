@@ -1657,10 +1657,10 @@
   resolved "https://registry.yarnpkg.com/@tailwindcssinjs/class-composer/-/class-composer-0.12.0.tgz#d59889c9c004fba7e5066bc547f533d80d7dfdc9"
   integrity sha512-c3h+X8MmZqwJUgRETF61UsF8x1DLIwuZxQyv+muoCzl2gE4K4g03JRG4USjbj3fQK9WYy9yqFwmrn7b6ALDNPw==
 
-"@tailwindcssinjs/macro@0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/macro/-/macro-0.13.0.tgz#8ccc312c6b4f425a293b29e1b5e02434593eca28"
-  integrity sha512-4pLu4YWpJSdkrHdxLwh3gMW/0XoOl21ppQMURkbFVXIgyYv3VkB/8OX3R+9d8xYPXjZm9U1iTtfxWOlBHQxDyg==
+"@tailwindcssinjs/macro@0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/macro/-/macro-0.13.1.tgz#6e944e1f4f6ccc444a75615c09b52b1450b0c95a"
+  integrity sha512-76xg28yqz/NsITBqvderPgAllXD8a9GdaDs/q/9UXnOox8bbx7S47NDSXv/jdSgd/3YqQsD9C/huhRDjvWAnNA==
   dependencies:
     "@tailwindcssinjs/class-composer" "0.12.0"
     "@tailwindcssinjs/tailwindcss-data" "0.13.0"
