@@ -1657,21 +1657,21 @@
   resolved "https://registry.yarnpkg.com/@tailwindcssinjs/class-composer/-/class-composer-0.12.0.tgz#d59889c9c004fba7e5066bc547f533d80d7dfdc9"
   integrity sha512-c3h+X8MmZqwJUgRETF61UsF8x1DLIwuZxQyv+muoCzl2gE4K4g03JRG4USjbj3fQK9WYy9yqFwmrn7b6ALDNPw==
 
-"@tailwindcssinjs/macro@0.13.1":
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/macro/-/macro-0.13.1.tgz#6e944e1f4f6ccc444a75615c09b52b1450b0c95a"
-  integrity sha512-76xg28yqz/NsITBqvderPgAllXD8a9GdaDs/q/9UXnOox8bbx7S47NDSXv/jdSgd/3YqQsD9C/huhRDjvWAnNA==
+"@tailwindcssinjs/macro@0.14.1":
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/macro/-/macro-0.14.1.tgz#e77844da8071ae1b9e09cef51161c6113437cbac"
+  integrity sha512-JgXDHe8ncH6V91fVcp0DGg+Z2fwMMw68VhgDd46J2+BOTgMhDGHrZIucmiw6mI3Bp4xUKcT++xKATnBqQPKynQ==
   dependencies:
     "@tailwindcssinjs/class-composer" "0.12.0"
-    "@tailwindcssinjs/tailwindcss-data" "0.13.0"
+    "@tailwindcssinjs/tailwindcss-data" "0.14.0"
     babel-plugin-macros "^2.8.0"
     lodash "^4.17.20"
     postcss-js "^3.0.1"
 
-"@tailwindcssinjs/tailwindcss-data@0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/tailwindcss-data/-/tailwindcss-data-0.13.0.tgz#b5f5e3bad8a6fafe1726a293ee6b05d390049cf5"
-  integrity sha512-G+trkRpH9Z7Tz0nWHykawm/VeoCd1RpuualPB+f+ALZVCBBGiZCvJygA/6SEcTCceE8tFW0QSqcMiKL4gqh2og==
+"@tailwindcssinjs/tailwindcss-data@0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/tailwindcss-data/-/tailwindcss-data-0.14.0.tgz#488e7493ccc6e3ad57b344fb0cc550a08f21b8b0"
+  integrity sha512-MsEklLl9q3+rATkb7LFQjJGjYEVS3f/YnEh7JZ+yMigosRb34FHSDQZEk3LMWKhC7IbpeA3V/iOQ2F89m+ticQ==
   dependencies:
     lodash "^4.17.20"
     postcss "8.1.1"
