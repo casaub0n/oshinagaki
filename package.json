@@ -16,7 +16,7 @@
     "react-dom": "16.14.0"
   },
   "devDependencies": {
-    "@babel/core": "7.12.13",
+    "@babel/core": "7.12.16",
     "@emotion/babel-plugin": "11.2.0",
     "@emotion/server": "11.0.0",
     "@tailwindcss/ui": "0.7.2",
